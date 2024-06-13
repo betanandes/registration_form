@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="registration.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Cadastre-se</div>
+      <div class="content">
+        <form id="form" class="form" action="#">
+          <div class="user-details">
+            
+            <div class="input-box">
+              <span class="details">Nome completo *</span>
+              <input type="text" id="fullname" placeholder="Digite seu nome completo" />
+              <a>Aqui vai a mensagem de erro...</a>
+            </div>
+
+            <div class="input-box">
+              <span class="details">Data de Nascimento</span>
+              <input type="date" id="dataNasc" placeholder="" />
+              <a>Aqui vai a mensagem de erro...</a>
+            </div>
+
+            <div class="input-box">
+              <span class="details">E-mail</span>
+              <input type="text" id="email" placeholder="Digite seu e-mail" />
+              <a>Aqui vai a mensagem de erro...</a>
+            </div>
+
+            <div class="input-box">
+              <span class="details">Telefone Celular</span>
+              <input type="tel" id="cel" placeholder="(xx) xxxxx-xxxx"  />
+              <a>Aqui vai a mensagem de erro...</a>
+            </div>
+
+            <div class="input-box">
+              <span class="details">Telefone Fixo</span>
+              <input type="tel" id="tel" placeholder="(xx) xxxx-xxxx"  />
+              <a>Aqui vai a mensagem de erro...</a>
+            </div>
+
+            <div class="input-box">
+              <span class="details">Nome da Mãe</span>
+              <input type="text" id="mae" placeholder="Digite o nome de sua mãe"  />
+              <a>Aqui vai a mensagem de erro...</a>
+            </div>
+
+            <div class="input-box">
+                <span class="details">CPF</span>
+                <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" >
+                <a>Aqui vai a mensagem de erro...</a>
+              </div>
+  
+              <div class="input-box">
+                <span class="details">CEP</span>
+                <input type="text" id="cep" placeholder="Digite seu CEP"  />
+                <a>Aqui vai a mensagem de erro...</a>
+              </div> 
+  
+              <div class="input-box">
+                <span class="details">Número e Complemento</span>
+                <input type="text" placeholder="Número e complemento"  />
+              </div>
+  
+              <div class="input-box">
+                <span class="details">Bairro</span>
+                <input type="text" placeholder="Digite seu bairro"  />
+              </div>
+  
+              <div class="input-box">
+                <span class="details">Cidade</span>
+                <input type="text" placeholder="Digite sua cidade"  />
+              </div>
+  
+              <div class="input-box">
+                <span class="details">Estado</span>
+                <input type="text" placeholder="Digite seu estado"  />
+              </div>
+
+              
+              <div class="input-box">
+                <span class="details">Usuário</span>
+                <input type="text" id="username" placeholder="Crie seu usuário"  />
+                <a>Aqui vai a mensagem de erro...</a>
+              </div>
+
+              <div class="input-box">
+                <span class="details">Senha</span>
+                <input type="text" id="password" placeholder="Digite sua senha"  />
+                <a>Aqui vai a mensagem de erro...</a>
+              </div>
+  
+              <div class="input-box">
+                <span class="details">Confirme sua senha</span>
+                <input type="text" id="confirmPassword" placeholder="Confirme sua senha"  />
+                <a>Aqui vai a mensagem de erro...</a>
+              </div>
+          </div>
+
+          <div class="gender-details">
+            <input type="radio" name="gender" id="dot-1" />
+            <input type="radio" name="gender" id="dot-2" />
+            <input type="radio" name="gender" id="dot-3" />
+            <span class="gender-title">Gênero</span>
+
+            <div class="category">
+              <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">Feminino</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">Masculino</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="gender">Outro</span>
+              </label>
+            </div>
+
+          </div>
+
+          <div class="policy">
+            <input type="checkbox">
+            <h3>Eu aceito todos os termos e condições.</h3>
+          </div>
+
+
+          <div class="button">
+            <button type="submit">Cadastrar</button>
+         </div>
+
+          <div class="text">
+            <h3>Já tem uma conta? <a href="#">Entre agora</a></h3>
+          </div>
+
+        </form>
+      </div>
+    </div>
+
+    <script src="registration.js"></script>
+  </body>
+</html>
