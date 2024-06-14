@@ -18,7 +18,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 150vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,8 +60,8 @@ body {
 }
 
 form .user-details .input-box {
-  margin-bottom: 15px;
-  width: calc(100% / 3 - 15px);
+  /* margin-bottom: 1px; */
+  width: calc(100% / 3 - 20px);
   display: flex;
   flex-direction: column;
 }
@@ -145,6 +145,11 @@ form .input-box span.details {
    cursor: pointer;
    transition: all 0.3s ease;
    background: var(--color-gradient);
+ }
+
+ .button a {
+    color: #fff;
+    text-decoration: none;
  }
 
  form .button input:hover {
